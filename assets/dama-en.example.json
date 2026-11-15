@@ -1,0 +1,74 @@
+{
+  "_example_only": true,
+  "_note": "DAMA 英文修订版实测样例，只说明 baseline 长什么样；禁止把这里的数值套到别的书上。",
+  "schema_version": "1.0",
+  "kind": "pdf",
+  "verdict": "ok",
+  "profile": {
+    "page": {
+      "count": 592,
+      "width": 612.0,
+      "height": 792.0,
+      "text_chars_per_page": 2236
+    },
+    "bands": {
+      "header": [
+        0.0,
+        0.046
+      ],
+      "footer": [
+        0.962,
+        1.0
+      ]
+    },
+    "page_number": {
+      "mode": "fused_in_header"
+    },
+    "toc": {
+      "count": 1081,
+      "verbatim_hit_rate": 0.998,
+      "heading_sizes": [
+        24.0,
+        14.0,
+        12.0,
+        11.0,
+        9.0
+      ]
+    }
+  },
+  "params": {
+    "body_size": 9.98,
+    "body_tolerance": 0.25,
+    "heading_sizes": [
+      24.0,
+      14.0,
+      12.0,
+      11.0,
+      9.0
+    ],
+    "footnote_size": 8.4,
+    "superscript_size": 6.5,
+    "chrome_bands": {
+      "header": [
+        0.0,
+        0.046
+      ],
+      "footer": [
+        0.962,
+        1.0
+      ]
+    },
+    "page_number": "fused_in_header",
+    "bookmark_anchor": "text_anchor",
+    "heading_level_source": "numbering",
+    "leading_median": 15.0,
+    "paragraph_gap": 24.96,
+    "columns": {
+      "n": 1,
+      "gutter_ratio": 0.5
+    },
+    "text_layer": "text",
+    "table_mode": "ruled"
+  },
+  "warnings": []
+}
